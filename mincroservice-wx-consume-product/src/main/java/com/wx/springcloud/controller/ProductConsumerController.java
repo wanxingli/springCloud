@@ -14,8 +14,8 @@ import java.util.List;
 @RequestMapping("/product/consume/")
 public class ProductConsumerController {
 
-    private String REST_URL = "http://localhost:10001";
-
+//    private String REST_URL = "http://localhost:10001";
+    private String REST_URL = "http://MICROSERVICE-PRODUCT";
     @Resource
     RestTemplate restTemplate;
 

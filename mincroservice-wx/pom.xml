@@ -11,6 +11,15 @@
         <module>../mincroservice-wx-api</module>
         <module>../microservice-wx-provider-product</module>
         <module>../mincroservice-wx-consume-product</module>
+        <module>../mincroservice-wx-eurake</module>
+        <module>../mincroservice-wx-eureka</module>
+        <module>../microservice-wx-provider-product2</module>
+        <module>../mincroservice-wx-consume-product-feign</module>
+        <module>../microservice-wx-provider-product-hystrix</module>
+        <module>../microservice-wx-hystrix-dashboard</module>
+        <module>../microservice-wx-getway-zuul</module>
+        <module>../microservice-wx-config</module>
+        <module>../mincroservice-config-client</module>
     </modules>
     <!--手动指定 pom -->
     <packaging>pom</packaging>

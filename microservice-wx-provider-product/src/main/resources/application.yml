@@ -13,7 +13,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource                             # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver                             # mysql驱动包
-    url: jdbc:mysql://127.0.0.1:3306/springcloud_db01?serverTimezone=GMT%2B8 # 数据库名称
+    url: jdbc:mysql://10.4.168.221:3366/springcloud?allowMultiQueries=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8 # 数据库名称
     username: root
     password: root
     dbcp2:
@@ -22,3 +22,12 @@ spring:
       max-total: 5                # 最大连接数
       max-wait-millis: 150       # 等待连接获取的最大超时时间
 
+eureka:
+  client:
+    registerWithEureka: true  # 服务注册开关
+    fetchRegistry: true        # 服务发现开关
+    serviceUrl:                 # 注册到哪一个Eureka Server服务注册中心，多个中间用逗号分隔
+      defaultZone: http://eureka20001.com:20001/eureka,http://eureka20002.com:20002/eureka
+  instance:
+    instanceId: ${spring.application.name}:${server.port}   # 指定实例ID,就不会显 示主机名了
+    prefer-ip-address: true   #访问路径可以显示IP地址
