@@ -7,7 +7,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 /**
  * Createc by lwx0y01 on 2020/1/12
  */
-@EnableZuulProxy
+@EnableZuulProxy // 开启zuul的功能
 @SpringBootApplication
 public class GatwayZuulApplication {
     public static void main(String[] args) {

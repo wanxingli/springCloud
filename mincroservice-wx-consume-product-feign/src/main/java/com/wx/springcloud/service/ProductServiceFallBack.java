@@ -2,6 +2,7 @@ package com.wx.springcloud.service;
 
 import com.wx.springcloud.entities.Product;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 

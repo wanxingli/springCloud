@@ -15,8 +15,8 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../microservice-wx-getway-zuul/target/classes" />
-    <output-test url="file://$MODULE_DIR$/../microservice-wx-getway-zuul/target/test-classes" />
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$/../microservice-wx-getway-zuul">
       <sourceFolder url="file://$MODULE_DIR$/../microservice-wx-getway-zuul/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../microservice-wx-getway-zuul/src/main/resources" type="java-resource" />
