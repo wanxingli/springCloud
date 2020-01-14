@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: microservice-provid-product-config
+      profile: dev
+      label: master
+      uri: http://localhost:14001 # config server

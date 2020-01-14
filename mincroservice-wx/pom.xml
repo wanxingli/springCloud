@@ -20,6 +20,7 @@
         <module>../microservice-wx-getway-zuul</module>
         <module>../microservice-wx-config</module>
         <module>../mincroservice-config-client</module>
+        <module>../microservice-wx-provider-product-config</module>
     </modules>
     <!--手动指定 pom -->
     <packaging>pom</packaging>
